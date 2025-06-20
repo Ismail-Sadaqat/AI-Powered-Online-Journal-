@@ -11,6 +11,16 @@ The core idea is to provide a seamless journaling experience, where the AI assis
 
 ---
 
+## Technologies Used
+
+* **HTML5**
+* **CSS3**
+* **JavaScript**
+* **Speech Recognition API**
+* **Google Gemini API**
+
+---
+
 ## Features
 
 * **Standard Diary Entry:** Manually add, edit, and delete diary entries with a title, description, and date.
@@ -20,12 +30,5 @@ The core idea is to provide a seamless journaling experience, where the AI assis
 * **Speech-to-Text Input:** Speak your diary entries directly to the chatbot, and the AI will transcribe, process, and format them for your diary.
 * **Responsive Design:** The application is designed to be fully responsive, providing a consistent experience across various devices (desktops, tablets, and mobile phones).
 
----
+![Online Journal Chatbot](https://github.com/Ismail-Sadaqat/AI-Powered-Online-Journal-/blob/97839464682060bfbd1f1a6d39eae497283c7c21/Online%20journal/Journal%20with%20chatbot.png)
 
-## Technologies Used
-
-* **HTML5**
-* **CSS3**
-* **JavaScript**
-* **Speech Recognition API**
-* **Google Gemini API**
