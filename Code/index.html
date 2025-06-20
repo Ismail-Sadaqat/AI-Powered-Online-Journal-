@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+    />
+    <script src="script.js" defer></script>
+    <title>Online Journal</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1>Online Journal</h1>
+    </header>
+    <section>
+      <div class="journal">
+        <div class="grid-4-columns">
+          <!-- Add button  -->
+          <div class="add">
+            <div class="add-content">
+              <span class="material-symbols-outlined add-icon"> add </span>
+              <p class="add-button">Journal Entry</p>
+            </div>
+          </div>
+        </div>
+        <div class="entry-form">
+          <div class="entry-box">
+            <header>
+              <p>New Journal Entry</p>
+              <span class="material-symbols-outlined btn"> close </span>
+            </header>
+            <div class="entry-form-content">
+              <form action="#">
+                <div class="row title">
+                  <label>Title</label>
+                  <input type="text" spellcheck="false" />
+                </div>
+                <div class="row description">
+                  <label>Description</label>
+                  <textarea spellcheck="false"></textarea>
+                </div>
+                <button>Add</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <button class="chatbot-toggler">
+          <span class="material-symbols-outlined">mode_comment</span>
+          <span class="material-symbols-outlined">close</span>
+        </button>
+        <div class="chatbot">
+          <header>
+            <h2>Chatbot</h2>
+            <span class="close-btn material-symbols-outlined">close</span>
+          </header>
+          <ul class="chatbox">
+            <li class="chat incoming">
+              <span class="material-symbols-outlined">smart_toy</span>
+              <p>
+                <strong>Hi there!</strong> 👋<br />
+                Welcome to your personal voice-powered journal.<br />
+                You can <strong>speak</strong> or <strong>type</strong> about
+                your day, and I will help you turn it into a structured diary
+                entry.<br />
+                Just share your thoughts — I will handle the rest!<br />
+                <strong>How can I assist you today?</strong><br />
+              </p>
+            </li>
+          </ul>
+          <div class="chat-input">
+            <textarea placeholder="Enter a message..." required></textarea>
+            <span id="mic-btn" class="material-symbols-outlined">mic</span>
+            <span id="send-btn" class="material-symbols-outlined send-btn"
+              >send</span
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
