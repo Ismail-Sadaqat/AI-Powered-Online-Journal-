@@ -1,5 +1,7 @@
-# AI-Powered-Online-Journal-
+# AI-Powered-Online-Journal
 An Online Journal application with AI-powered text and speech input for intelligent entry creation and formatting. Built with HTML, CSS, JavaScript, and Google Gemini API
+
+![Online Journal](https://github.com/Ismail-Sadaqat/Smart-Toll-Gate-System/blob/b481221d50a3c54539407ac0c028a07773ec220c/Hardware-and-Software-Diagrams/Hardware%20diagram%20of%20Smart%20Toll%20Gate.png)
 
 ## About the Project
 
